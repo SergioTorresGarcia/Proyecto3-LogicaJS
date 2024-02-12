@@ -7,7 +7,7 @@
 ### Table of Contents 🗂️
 
 - [Repository of the exercise (ES) ℹ️](#Repository-of-the-exercise)
-- [Coding process ➡️](#➡️-coding-process)
+- [Coding process ➡️](#-coding-process➡️)
 - [Author ✏️](#-author)
 
 
@@ -15,7 +15,7 @@
 ## Repository of the exercise
 - Cloned from here: https://github.com/GeeksHubsAcademy/javascript-empanadas-challenge
 
-###  ➡️  Coding process:
+###   Coding process: ➡️ 
 - ##### Coding time: 2 hours ⏳
   
 - ##### Project explanation: 💬
@@ -47,7 +47,7 @@ Last I took care of Errors using "throw Error".
 For this I did 3 separate "ifs" with different error messages but it could be done altoghether as a general "throw Error"
 
 
-### ✏️ Author:
+### Author: ✏️
 **Sergio Torres García**
 Project Developer ([GitHub](https://github.com/SergioTorresGarcia))
 
