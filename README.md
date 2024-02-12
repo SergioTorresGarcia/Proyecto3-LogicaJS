@@ -7,8 +7,8 @@
 ### Table of Contents 🗂️
 
 - [Repository of the exercise (ES) ℹ️](#Repository-of-the-exercise)
-- [Coding process ➡️](#-coding-process➡️)
-- [Author ✏️](#-author)
+- [Coding process ➡️](#coding-process-)
+- [Author ✏️](#author-)
 
 
 
