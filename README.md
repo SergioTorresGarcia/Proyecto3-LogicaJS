@@ -8,6 +8,8 @@
 
 - [Repository of the exercise (ES) ℹ️](#Repository-of-the-exercise)
 - [Coding process ➡️](#➡️-coding-process)
+    - [First solution](#my-first-solution-of-this-exercise-is-simple-☑️)
+    - [Second solution](#my-second-solution-without-using-mathceil-is-a-little-more-complex👌🏼-✅-💯-💪)
 - [Author ✏️](#-author)
 
 
@@ -31,7 +33,7 @@ General premises:
 
 After writing the proper code, the exercise would be done after all tests are passed 👌
 
-MY FIRST SOLUTION of this exercise is simple:
+#### MY FIRST SOLUTION of this exercise is simple: ☑️ 
 (commit here: https://github.com/SergioTorresGarcia/Proyecto3-LogicaJS/commit/d7863f57c78fc76489d2e3faf4fd2510bc1067cf)
  - 3 if statements take care of the possible errors:
     - total order is not multiple of 3
@@ -47,7 +49,8 @@ Then changed it to Math.ceil as I realised they were rounded up.
 Last I took care of Errors using "throw Error".
 For this I did 3 separate "ifs" with different error messages but it could be done altoghether as a general "throw Error"
 
-MY SECOND SOLUTION (without using Math.ceil()) is a little more complex:
+
+#### MY SECOND SOLUTION (without using Math.ceil()) is a little more complex:👌🏼 ✅ 💯 💪 
 - Same 3 if statements take care of the possible errors.
 - Given the previous conditions, with a series of if statements I grab ALL POSSIBLE SCENARIOS:
     1. ordering only 1 ingredient empanada (3 simple "ifs")
