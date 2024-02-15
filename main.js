@@ -72,10 +72,10 @@ export const fn = (a, b, c) => {
          if (a == b == c) { // todo por igual 
             return total = (pA + pB + pC) / 3
 
-         } else if ((c > b) && (c > a)) {
+         } else if ((c > b) && (c > a)) { // más verduras que el resto 
             return total = ((pB / b * a) + (pC/c))
 
-         } else if ((c < a) && (b < a)) {
+         } else if ((c < a) && (b < a)) { // más pollo que el resto 
             return total = ((pB / b * c) + (pA/a + pB/b)/2)
          }
       }

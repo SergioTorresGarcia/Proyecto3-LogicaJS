@@ -16,7 +16,7 @@
 - Cloned from here: https://github.com/GeeksHubsAcademy/javascript-empanadas-challenge
 
 ###  ➡️  Coding process:
-- ##### Coding time: 2 hours ⏳
+- ##### Coding time: 2 + 2 hours ⏳
 
 - ##### Project explanation: 💬
 
@@ -31,7 +31,8 @@ General premises:
 
 After writing the proper code, the exercise would be done after all tests are passed 👌
 
-MY SOLUTION of this exercise is simple:
+MY FIRST SOLUTION of this exercise is simple:
+(commit here: https://github.com/SergioTorresGarcia/Proyecto3-LogicaJS/commit/d7863f57c78fc76489d2e3faf4fd2510bc1067cf)
  - 3 if statements take care of the possible errors:
     - total order is not multiple of 3
     - total order is more than 40
@@ -46,6 +47,24 @@ Then changed it to Math.ceil as I realised they were rounded up.
 Last I took care of Errors using "throw Error".
 For this I did 3 separate "ifs" with different error messages but it could be done altoghether as a general "throw Error"
 
+MY SECOND SOLUTION (without using Math.ceil()) is a little more complex:
+- Same 3 if statements take care of the possible errors.
+- Given the previous conditions, with a series of if statements I grab ALL POSSIBLE SCENARIOS:
+    1. ordering only 1 ingredient empanada (3 simple "ifs")
+    2. ordering 2 ingredient empanadas we have the following options:
+        a. chicken & meat
+        b. chicken & veggies
+        c. meat & veggies
+        - within each of this pair of ingredients, we need to differenciate:
+            - order same ammount of both ingredients 
+            - ammount of the cheaper ingredient is bigger
+            - ammount of the cheaper ingredient is smaller
+    3. ordering all 3 ingredient empanadas.
+        a. order of all 3 with same ammounts
+        b. order bigger ammount of the cheapest
+        c. order bigger ammount of the most expensive
+
+- Each case gives us a formula that takes in account the proportions of the order ammounts.
 
 ### ✏️ Author:
 **Sergio Torres García**
